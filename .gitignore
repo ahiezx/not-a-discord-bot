@@ -8,7 +8,7 @@ __pycache__/
 
 
 auth.py
-
+config.py
 
 # Distribution / packaging
 .Python
