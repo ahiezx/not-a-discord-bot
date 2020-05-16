@@ -7,5 +7,6 @@ bot.db = MySQL(auth.HOST, auth.USER, auth.PASS, auth.PORT)
 @bot.event
 async def on_ready():
 	print("{} {} - Made by {}".format(bot.user.name, config.VERSION,config.AUTHOR))
-
+	connect = bot.db.connect()
+	
 bot.run(auth.TOKEN)
