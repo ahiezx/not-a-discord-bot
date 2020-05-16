@@ -1,4 +1,4 @@
 AUTHOR = "Ahmed & Zkor"
-VERSION = "0.1 - Beta"
+VERSION = "1.0"
 PREFIX = "$"
 COLOR = 0xff00ff

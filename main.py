@@ -6,6 +6,6 @@ bot = discord.Client()
 bot.db = MySQL(auth.HOST, auth.USER, auth.PASS, auth.PORT)
 @bot.event
 async def on_ready():
-	print("{} {}, Made by {}\n".format(bot.user.name, config.VERSION,config.AUTHOR))
+	print("{} {} - Made by {}".format(bot.user.name, config.VERSION,config.AUTHOR))
 
 bot.run(auth.TOKEN)
